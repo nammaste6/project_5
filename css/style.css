@@ -28,9 +28,11 @@ body{
 
 .menu div:hover{
     color:rgb(63,210,176);
+    cursor:pointer;
 }
 
 #container{
+    margin:0 auto;
     width:1280px;
     padding-top:80px;
 }
