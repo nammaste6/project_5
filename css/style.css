@@ -7,7 +7,9 @@ body{
 }
 
 #header{
-    position:relative;
+    position:fixed;
+    width:100%;
+    top:0;
     background:#fff;
 }
 
@@ -34,11 +36,47 @@ body{
 #container{
     margin:0 auto;
     width:1280px;
-    padding-top:80px;
 }
 
 #outer_circle{
     background-image:url(../images/outer_circle.svg);
+    width:1280px;
+    height:800px;
+    z-index:2;
+    position:absolute;
+    top:80px;
+}
+
+#main_image{
+    z-index:1;
+}
+
+.pipe{
+    float:right;
+}
+
+.contents{
+    padding:100px 0 0 30px;
+}
+
+.subject{
+    font-size:76px;
+    line-height:80px;
+    margin-bottom:60px;
+    color:rgb(63,210,176);
+}
+
+.left{
+    float:left;
+}
+
+.history{
+    float:left;
+}
+
+.color div{
+    width:409px;
+    float:right;
 }
 
 #footer{
