@@ -12,6 +12,8 @@ body{
     width:1280px;
     top:0;
     background:#fff;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 #logo{
