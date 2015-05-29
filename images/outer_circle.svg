@@ -72,6 +72,6 @@
 		<circle fill="#FFFFFF" cx="832.3" cy="519.9" r="4.5"/>
 		<circle fill="#FFFFFF" cx="805.3" cy="351.7" r="6.6"/>
 	</g>
-	    <animateTransform attributeName="transform" attributeType="xml" type="rotate" from="0 640 440" to="360 640 440" dur="4s" repeatCount="indefinite"/>
+	    <animateTransform attributeName="transform" attributeType="xml" type="rotate" from="0 639.81 459.681" to="360 639.81 459.681" dur="4s" repeatCount="indefinite"/>
 </g>
 </svg>
