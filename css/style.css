@@ -190,6 +190,7 @@ body{
 #information_bottom_contents .contents{
     float:left;
     width:875px;
+    padding-top:500px;
 }
 
 #information_bottom_inner{
@@ -236,6 +237,8 @@ body{
 #define_contents .contents{
     float:left;
     width:1280px;
+    height:800px;
+    overflow:hidden;
 }
 
 #define_contents .contents .subject{
@@ -257,11 +260,68 @@ body{
 
 .define_inner{
     padding:50px 0 0 30px;
-    width:50%;
+    width:40%;
+}
+
+#anal_contents{
+    background-color:rgb(217,249,243);
+    height:800px;
+}
+
+#anal_contents .contents{
+    float:left;
+    width:875px;
+}
+
+#anal_contents .contents .subject{
+    padding:120px 0 30px 30px;
+    width:100%;
+}
+
+.anal_sub{
+    color:rgb(86, 209, 148);
+    font-weight:bold;
+}
+
+.anal_inner{
+    padding:50px 0 0 30px;
+    width:70%;
 }
 
 .right{
     float:right;
+}
+
+#visual_contents{
+    background-color:rgb(255,234,174);
+    height:800px;
+}
+
+#visual_contents .contents{
+    float:left;
+    width:875px;
+}
+
+#visual_contents .contents .subject{
+    padding:120px 0 30px 30px;
+    width:100%;
+}
+
+.visual_subject{
+    font-size:60px;
+    color:rgb(27, 206, 155);
+    line-height:117px;
+    padding-left:10px;
+}
+
+.visual_sub{
+    color:rgb(188, 144, 55);
+    font-weight:bold;
+}
+
+.visual_inner{
+    padding:50px 0 0 30px;
+    width:70%;
 }
 
 #footer{

@@ -119,10 +119,146 @@
 		    <img src="images/select_pipe.png"/>
 		</div>
 	    </div>
-	    <div id="information_contents">
-		<div class="contents"></div>
+	    <div id="information_top_contents">
+		<div class="contents">
+		    <div class="subject">
+			<div class="left" style="padding-right:20px">
+			    <img src="images/information_icon.png"/>
+			</div>
+			<div class="information_subject">
+			   정보 탐색 
+			</div>
+		    </div>
+		    <div class="information_inner information_bold">
+			프랜차이즈 가맹업 대해 검색하여 프랜차이즈 업계에 성장과 하락이 공존하며 유행의 주기가 매우 짧다는 사실을 파악했습니다. 공정거래 위원회 가맹사업거래 정보공개서를 통해서 프랜차이즈 브랜드에 대한 최근 3년의 정보를 파악할 수 있었습니다.
+		    </div>
+		    <div class="information_inner">
+			공정거래 위원회 가맹사업거래 정보공개서의 내용 중 해당 브랜드의 매장 수 변화와 계약 내용에 관한 정보에 집중했습니다. 그리고 해당 데이터를 시각화 하여 브랜드 매장 수의 변화와 신규/해약의 비율을 한눈에 파악할 수 있는 차트를 제공하기로 하였습니다.
+		    </div>
+		    <div style="height:296px; overflow:visible">
+			<img src="images/information_total.png"/>
+		    </div>
+		</div>
 		<div class="pipe">
-		    <img src="images/information_pipe.png"/>
+		    <img src="images/information_top_pipe.png"/>
+		</div>
+	    </div>
+	    <div id="information_bottom_contents">
+		<div class="contents">
+		    <div>
+			<img src="images/information_food.png"/>
+			<div class="information_bottom_inner">
+			    프랜차이즈 브랜드를 선정할 때, 최근 유행하는 빙수, 닭강정, 김밥, 스몰비어 등의 가맹점을 선정하고 싶었으나 공정위 가맹거래서의 데이터가 부족하므로 최근 유행을 파악하기 어려웠습니다. 
+			</div>
+			<div class="information_bottom_inner">
+			    그래서 김브이는 프랜차이즈 전통 강자인 치킨, 떡볶이, 커피를 분석 대상으로 정하고 충분한 매장수를 가지고 있는 브랜드 목록을 선정했습니다.
+			</div>
+		    </div>
+		</div>
+		<div class="pipe">
+		    <img src="images/information_bottom_pipe.png"/>
+		</div>
+	    </div>
+	    <div id="crawl_contents">
+		<div class="contents">
+		    <div class="subject">
+			<div class="left" style="padding-right:20px">
+			    <img src="images/crawl_icon.png" />
+			</div>
+			<div class="crawl_subject">
+			   데이터 수집 
+			</div>
+		    </div>
+		    <div class="crawl_inner">
+			    공정거래위원회 가맹사업거래 정보공개서를 통해서 브랜드 별 가맹정보를 수집할 수 있습니다. 하지만 30여개 매장의 정보를 수집하는 데에는 번거로움이 있었습니다.</br>
+			    정보공개서를 한번에 크롤링하는 python 코드를 짜서 데이터를 수집하기로 결정했습니다.
+		    </div>
+		    <div class="crawl_inner">
+			    <img src="images/crawl_page.png" style="width:100%" />
+		    </div>
+		    <div class="crawl_inner">
+			url 링크
+		    </div>
+		</div>
+		<div class="pipe">
+		    <img src="images/crawl_pipe.png"/>
+		</div>
+	    </div>
+	    <div id="define_contents">
+		<div class="contents">
+		    <div class="subject">
+			<div class="left" style="padding-right:20px">
+			    <img src="images/define_icon.png" />
+			</div>
+			<div class="define_subject">
+			   데이터 수집 
+			</div>
+		    </div>
+		    <div class="define_inner define_sub">
+			크롤링을 통해 수집된 데이터를 가공하여 김브이가 원하는 수치정보를 수집합니다. 수치정보만 가지고 해석이 어려운 데이터는 다양한 기본 차트를 그려보면서 경향성과 상관관계를 파악합니다.
+		    </div>
+		    <div class="define_inner">
+			1. 3개년 매장 수 변화 파악
+			가장 기본적으로 3개년간 매장수의 변화를 살펴봅니다. 각 브랜드별 성장/하락을 파악할 수있고 전체 업계의 분위기를 파악할 수 있습니다.
+			</br>
+			</br>
+			</br>
+			<img src="images/define_graph1.png"/>
+		    </div>
+		    <div class="define_inner">
+			<img src="images/define_pipe.png"/>
+		    </div>
+		    <div class="define_inner">
+			2. 해지율과 성장률을 함께보기로 합니다.
+			매장수를 성장률로 환산하고 해지율과 함께 확인합니다. 각 브랜드별로 현재 잘 되고 있는 브랜드가 좀 더 보입니다. 성장률이 높으면서 해지율이 낮은 브랜드는 잘 되고 있는것 같습니다. 하지만 성장률이 낮은데 해지율이 낮은 브랜드도 보입니다. 성장률도 높고 해지율도 높은 것도 있네요
+
+			</br>
+			</br>
+			</br>
+			<img src="images/define_graph2.png"/>
+		    </div>
+		</div>
+	    </div>
+	    <div id="anal_contents">
+		    <div class="contents">
+			<div class="anal_inner anal_sub">
+			    다양한 차트를 통해서 데이터를 해석하고 프랜차이즈 시장과 개별 브랜드의 특성을 파악합니다. 시장의 불안정성, 브랜드 성장률과 가맹해지율, 가맹비 대비 투자성공률 등을 확인할 수 있었습니다.
+			</div>
+			<div class="anal_inner">
+			    3. 해지율 성장률을 좀 더 보기쉽게 바꿉니다.
+			    3년 평균 성장률과 평균해지율을 x,y축으로 봅니다. 성장률과 해지율의 관계를 좀 더 명확하게 확인할 수 있습니다. 산점도를 통해 보니 그래프보다 성장/해지율의 관계를 훨씬 쉽게 파악할 수 있습니다.
+			    <img src="images/anal_graph1.png"/>
+			</div>
+		    </div>
+		    <div class="pipe">
+			<img src="images/anal_pipe.png"/>
+		    </div>
+	    </div>
+	    <div id="visual_contents">
+		<div class="contents">
+		    <div class="subject">
+			<div class="left" style="padding-right:20px">
+			    <img src="images/visual_icon.png" />
+			</div>
+			<div class="visual_subject">
+			  비주얼라이제이션 
+			</div>
+		    </div>
+		    <div class="visual_inner visual_sub">
+			디자인 기획 및 최종 결과물을 위한 시각화 차트를 결정하는 단계입니다.
+			</br>
+			김브이가 가진 데이터를 가장 효과적으로 표현해 줄 차트를 D3 차트 라이브러리에서 검색합니다. 기존에 자주 사용되지 않고, 동적 움직임이 가능한 차트를 고려한 결과 버블차트와 트리맵이 가장 적합한 차트로 결정 되었습니다.
+		    </div>
+		    <div class="visual_inner">
+			또한, 최종결과물을 보여주기 위하 포맷은 D3.js를 통한 동적 데이터 시각화를 위해서 웹페이지로 서비스하기로 했습니다. 
+		    </div>
+		    <div class="visual_inner" style="padding-top:10px; width:100%">
+			<img src="images/visual_bubble.png"/>
+			<img src="images/visual_tree.png"/>
+		    </div>
+		</div>
+		<div class="pipe">
+		    <img src="images/visual_pipe.png"/>
 		</div>
 	    </div>
 	    <div id="about_contents">
